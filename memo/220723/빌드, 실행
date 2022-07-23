@@ -1,0 +1,13 @@
+2022.07.23.토
+
+* 터미널에서 gradle 빌드 후 실행 확인
+
+  1. 프로젝트 위치로 이동
+  
+  2. ./gradlew build or ./gradlew clean build ( clean : 지우고 다시 빌드 )
+  
+  3. cd build/libs
+  
+  4. java -jar ex)hello-spring-0.0.1-SNAPSHOT.jar
+  
+  5. 실행 확인
