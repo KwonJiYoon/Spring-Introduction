@@ -1,0 +1,59 @@
+🔥 2022.07.23.토 🔥
+
+🟨 스프링 부트 환경 설정
+
+    https://start.spring.io/
+
+    위 👆🏻 사이트에서 스프링 부트 프로젝트 생성
+
+    ⚙️ 기본 설정 정보 ⚙️
+        👉🏻 PROJECT : gradle project
+        👉🏻 LANGUAGE : JAVA
+        👉🏻 SPRING BOOT : 2.7.2
+        👉🏻 PACKAGING : JAR
+        👉🏻 JAVA VERSION : 11
+        👉🏻 DEPENDENCIES : thymeleaf, spring-web
+
+
+
+Gradle은 의존관계가 있는 라이브러리를 함께 다운로드 한다.
+
+🟨 스프링 부트 라이브러리
+
+  1. spring-boot-starter-web
+
+    1-1. spring-boot-starter-tomcat : 톰캣 (웹서버)
+    1-2. spring-webmvc : 스프링 웹 MVC
+
+  2. spring-boot-starter-thymeleaf : 타임리프 템플릿 엔진 (view)
+
+    2-1. spring-boot
+
+      2-1-1. spring-core
+
+    2-2. spring-boot-starter-logging
+
+      2-2-1. logback, slf4j ( 이 두 조합으로 많이 운영됨. 표준에 가까움 )
+
+
+🟨 테스트 라이브러리
+
+  1. spring-boot-starter-test
+
+    1-1. junit : 테스트 프레임워크
+    1-2. mockito : 목 라이브러리
+    1-3. assertj : 테스트 코드를 좀 더 편하게 작성하게 도와주는 라이브러리
+    1-4. spring-test : 스프링 통합 테스트 지원
+
+
+🟨 터미널에서 gradle 빌드 후 실행 확인
+
+  1. 프로젝트 위치로 이동
+
+  2. ./gradlew build or ./gradlew clean build ( clean : 지우고 다시 빌드 )
+
+  3. cd build/libs
+
+  4. java -jar ex)hello-spring-0.0.1-SNAPSHOT.jar
+
+  5. 실행 확인
