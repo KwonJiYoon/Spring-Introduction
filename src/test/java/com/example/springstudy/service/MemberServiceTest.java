@@ -2,7 +2,6 @@ package com.example.springstudy.service;
 
 import com.example.springstudy.domain.Member;
 import com.example.springstudy.repository.MemoryMemberRepository;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
