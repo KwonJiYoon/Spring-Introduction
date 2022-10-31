@@ -1,9 +1,9 @@
-package com.example.springstudy;
+package com.example.springIntro;
 
-import com.example.springstudy.repository.JdbcMemberRepository;
-import com.example.springstudy.repository.JdbcTemplateMemberRepository;
-import com.example.springstudy.repository.MemberRepository;
-import com.example.springstudy.service.MemberService;
+import com.example.springIntro.repository.JdbcMemberRepository;
+import com.example.springIntro.repository.JdbcTemplateMemberRepository;
+import com.example.springIntro.repository.MemberRepository;
+import com.example.springIntro.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

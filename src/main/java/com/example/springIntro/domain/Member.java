@@ -1,4 +1,4 @@
-package com.example.springstudy.domain;
+package com.example.springIntro.domain;
 
 public class Member {
 

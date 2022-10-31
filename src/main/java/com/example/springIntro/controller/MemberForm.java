@@ -1,4 +1,4 @@
-package com.example.springstudy.controller;
+package com.example.springIntro.controller;
 
 public class MemberForm {
     private String name;

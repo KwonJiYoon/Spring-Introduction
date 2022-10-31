@@ -1,7 +1,7 @@
-package com.example.springstudy.controller;
+package com.example.springIntro.controller;
 
-import com.example.springstudy.domain.Member;
-import com.example.springstudy.service.MemberService;
+import com.example.springIntro.domain.Member;
+import com.example.springIntro.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

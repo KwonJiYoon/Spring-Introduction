@@ -1,7 +1,7 @@
-package com.example.springstudy.service;
+package com.example.springIntro.service;
 
-import com.example.springstudy.domain.Member;
-import com.example.springstudy.repository.MemberRepository;
+import com.example.springIntro.domain.Member;
+import com.example.springIntro.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

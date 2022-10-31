@@ -1,7 +1,7 @@
-package com.example.springstudy.service;
+package com.example.springIntro.service;
 
-import com.example.springstudy.domain.Member;
-import com.example.springstudy.repository.MemoryMemberRepository;
+import com.example.springIntro.domain.Member;
+import com.example.springIntro.repository.MemoryMemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
