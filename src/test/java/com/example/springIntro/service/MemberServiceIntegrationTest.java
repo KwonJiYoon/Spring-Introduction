@@ -22,7 +22,7 @@ class MemberServiceIntegrationTest {
     void join() {
         // given
         Member member = new Member();
-        member.setName("spring5");
+        member.setName("spring6");
 
         // when
         Long saveId = memberService.join(member);
