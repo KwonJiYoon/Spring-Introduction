@@ -19,11 +19,10 @@ class MemberServiceIntegrationTest {
     @Autowired MemberRepository memberRepository;
 
     @Test
-    @Commit
     void join() {
         // given
         Member member = new Member();
-        member.setName("spring4");
+        member.setName("spring5");
 
         // when
         Long saveId = memberService.join(member);
